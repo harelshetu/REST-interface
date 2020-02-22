@@ -1,5 +1,5 @@
 I built REST interface using Sequlize-MySQL database.
-The app accept data and make an external API call while applying
+The app accept data on the interface and make an external API call while applying
 “at least once” behavior on the call. 
 
 Run:
