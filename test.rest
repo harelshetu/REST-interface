@@ -1,0 +1,27 @@
+GET http://localhost:5000/api 
+
+###
+
+GET http://localhost:5000/api/34
+
+###
+
+POST http://localhost:5000/api 
+content-type: application/json
+
+{
+   "firstName":"Bob",
+	"lastName":"doe"
+}
+
+###
+DELETE http://localhost:5000/api/34
+
+###
+PATCH http://localhost:5000/api/37
+Content-Type: application/json
+
+{
+    "firstName":"Bob",
+   
+}
